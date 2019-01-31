@@ -1,0 +1,10 @@
+{
+  "name": "タイトルは煽りです",
+  "description": "Qiita の記事で「タイトルは煽りです」と書かれていたらブラウザバックします。",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://qiita.com/*"],
+    "js": ["title-is-blast.js"]
+  }]
+}
